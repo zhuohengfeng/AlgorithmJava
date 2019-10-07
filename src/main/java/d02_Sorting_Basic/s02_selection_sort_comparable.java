@@ -60,7 +60,6 @@ public class s02_selection_sort_comparable {
             }
             SortTestHelper.swapArrary(arr, minIndex, i);
         }
-        SortTestHelper.printArrary(arr);
     }
 
 

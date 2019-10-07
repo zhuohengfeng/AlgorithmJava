@@ -44,6 +44,15 @@ public class SortTestHelper {
         return true;
     }
 
+    public static Integer[] copyArray(Integer[] intArr, int length) {
+        Integer[] tempArray = new Integer[length];
+        for (int i=0; i < length; i++) {
+            tempArray[i] = new Integer(intArr[i]);
+        }
+        return tempArray;
+    }
+
+
     // 测试sortClassName所对应的排序算法排序arr数组所得到结果的正确性和算法运行时间
     public static void testSort(String sortName, Comparable[] arr) {
         // 通过Java的反射机制，通过排序的类名，运行排序函数
@@ -63,4 +72,6 @@ public class SortTestHelper {
             System.out.println(e.getMessage());
         }
     }
+
+
 }
