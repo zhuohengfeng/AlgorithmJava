@@ -7,6 +7,14 @@ package d03_Sorting_Advance;
  */
 public class s01_merge_sort {
 
+    public static void _merge() {
+
+    }
+
+    public static void _sort() {
+
+    }
+
     public static void sort(Integer[] arr, int n){
 
     }
@@ -14,4 +22,5 @@ public class s01_merge_sort {
     public static void main(String[] args) {
 
     }
+
 }
